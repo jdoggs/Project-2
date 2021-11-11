@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    </link>
+    <title>THIRST</title>
+</head>
+
+<body>
+    <button id="redirects">Take me to the other page</button>
+    <section class="flex_title">
+        <h1>THIRST</h1>
+        <h2><em>for you..means what?</em></h2>
+    </section>
+    
+    <div class="container">
+
+        <!-- View chat messages here -->
+        <div class="sub-container chat-feed">
+            <div class="chat-header">Responses</div>
+            <div class="chat-box" id="chat-box-msgs"></div>
+        </div>
+
+        <!-- Enter chat messages here -->
+        <div class="sub-container chat-input">
+            <input type="text" class="chat-input-name" id="name-input" placeholder="Name" />
+            <input type="text" class="chat-input-msg" id="msg-input" placeholder="Thoughts" />
+            <button id="send-button">Send</button>
+        </div>
+        
+    </div>
+    <footer>
+        <p>
+            <span id="date">As of today...</span>...<br />
+          </p>
+    </footer>
+
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

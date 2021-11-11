@@ -1,0 +1,67 @@
+.flex_title {
+    font-size: 54px;
+    text-align: center;
+    font-family: Arial;
+    letter-spacing: 10px;
+    color:rgba(50, 158, 158, 0.884);
+
+}
+h2 {
+    font-size: 30;
+    text-align: center;
+    color: whitesmoke;
+}
+body {
+    padding: 20px;
+    background-color: rgba(216,175,135,1); 
+    /* background: rgb(34,193,195); */
+    /* background: linear-gradient(rgba(34,193,195,1), rgba(186,179,162,1); */
+    /* background-image: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(34,193,195,1) 18%, rgba(34,193,195,1) 35%, rgba(162,181,167,1) 56%, rgba(186,179,162,1) 60%); */
+    /* //.layered-image {
+        background: linear-gradient(to right, transparent, mistyrose),
+            url("critters.png");
+      } */
+    background-image: url(./Assets/graydrops.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: repeat-x; 
+}
+
+#number-glasses {
+    margin-left: 10px;
+    
+}
+#glasses {
+    text-align: center;
+   
+}
+#button-water {
+    align-items: center;
+   
+}
+#water {
+    text-align: center;
+    padding: 5px;
+
+}
+.bottle {
+    width: 100%;
+    padding: 10px;
+
+}
+.total-count {
+padding: 10px;
+}
+.resources {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-weight: 100;
+    font-size: 20px;
+    background-color:grey;
+    margin-left: 10px;
+  
+}

@@ -1,0 +1,47 @@
+.flex_title {
+    font-size: 80%;
+    text-align: center;
+    font-family: Arial;
+    letter-spacing: 10px;
+    color: rgba(50, 158, 158, 0.884);
+    /* drop-shadow(16px 16px 10px black); */
+    padding-top: 20px; 
+}
+/* h1 {
+    font-size: xxx-large;
+    font-weight:bold;
+    letter-spacing: 10px;
+    padding: 40px;
+    font-family: helvetica;
+    color:aqua;
+    /* margin-top: 30px; */
+
+body {
+    background-color: white;
+    display:flexbox;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('./Assets/pexels-josh-sorenson-831889.jpg');
+    /* background-image: url('./Assets/leakyfaucet.jpg');
+    background-repeat: repeat-y;
+    background-position: top 20px right 10px;  */
+
+}
+.quote {
+    font-size: 30px;
+    color: rgba(92, 24, 24, 0.527);
+
+}
+.clickMe {
+    -moz-appearance: button;
+    -ms-appearance: button;
+    -o-appearance: button;
+    -webkit-appearance: button;
+    appearance: button;
+    text-decoration-color: rgba(139, 39, 39, 0.479);
+    color: coral;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 0.2em 0.4em;
+
+}
